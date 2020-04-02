@@ -1,6 +1,7 @@
 import React from 'react';
 import ConstructPage from '../contruct-page';
-
+import '../../styles/app.css';
+// por que funciona sem esse impor em cima, precisa??
 
 
 import {

@@ -10,11 +10,11 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  &__section {
-    flex:1;
-  }
-}
-
-.h-footer {
+      &__section {
+        flex:1;
+      }
+      &__content {
+        display: grid;
+      }
 
 }

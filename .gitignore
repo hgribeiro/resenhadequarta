@@ -6,8 +6,8 @@
 .pnp.js
 
 /src/styles/.sass-cache
-/src/styles/*/*.css
-/src/styles/**/*.css
+#/src/styles/*/*.css
+#/src/styles/**/*.css
 
 # testing
 /coverage
