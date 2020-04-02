@@ -1,0 +1,24 @@
+
+.h-footer {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: 4rem;
+  align-items: stretch;
+  position: relative;
+        svg {
+          position: absolute;
+          height: 100%;
+          width: auto;
+        }
+        &__left {
+          @include altern-box(rgb(214, 218, 250)); 
+          
+          
+        }
+        &__right {
+          @include altern-box(white);
+        }
+      
+      }
+

@@ -1,0 +1,20 @@
+#root {
+  position: relative;
+  height: 100%;
+      > div{
+        position: relative;
+        height: 100%;
+      }
+}
+.h-about {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  &__section {
+    flex:1;
+  }
+}
+
+.h-footer {
+
+}

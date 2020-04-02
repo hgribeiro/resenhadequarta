@@ -1,0 +1,27 @@
+
+
+
+.h-header {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: 4rem;
+  align-items: stretch;
+  position: relative;
+        svg {
+          position: absolute;
+          margin-top: 0.15rem;
+          height: 90%;
+          width: auto;
+        }
+        &__left {
+          @include altern-box(white); 
+          
+          
+        }
+        &__right {
+          @include altern-box(rgb(214, 218, 250));
+        }
+      
+      }
+

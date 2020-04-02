@@ -1,0 +1,7 @@
+@mixin altern-box ($background-color){
+  background-color: $background-color;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
