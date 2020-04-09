@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
+import Catalogo from '../catalogo';
 
 
 export default class MainPage extends React.Component {
@@ -9,7 +10,7 @@ export default class MainPage extends React.Component {
         
           <>
             <Header/>
-           
+            <Catalogo/>
             <Footer/>
           </>
         

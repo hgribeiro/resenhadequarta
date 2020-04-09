@@ -5,5 +5,12 @@
 
 body {
 	font-size: 10px;
-	font-family: 'Courier New', Courier, monospace
+	font-family: 'Courier New', Courier, monospace;
+	margin: 0; 
+}
+
+.container {
+	margin:  0 auto;
+	position: relative;
+	width: 960px;
 }
