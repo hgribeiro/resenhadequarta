@@ -1,8 +1,6 @@
 import React from 'react';
-import ConstructPage from '../contruct-page';
+import MainPage from '../main-page';
 import '../../styles/app.css';
-// por que funciona sem esse impor em cima, precisa??
-
 
 import {
   BrowserRouter,
@@ -15,16 +13,16 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
       <BrowserRouter>
         
         <Switch>
           <Route path='*'>
-            <ConstructPage/>
+            <MainPage/>
           </Route>
         </Switch>
       </BrowserRouter>
-    </div>
+    </>
 
     );
   }
