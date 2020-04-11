@@ -10,8 +10,14 @@ export default class Catalogo extends React.Component {
       
       
       <>
-        <div className="container">
+        <div className="container-catalogo">
           <ul className="h-catalogo">
+            <Produto
+            picture = {prod1}
+            />
+            <Produto
+            picture = {prod1}
+            />
             <Produto
             picture = {prod1}
             />

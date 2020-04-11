@@ -1,0 +1,75 @@
+.input#Nome {
+  width: 90%;
+  
+  margin: 0 10px 10px 0px;
+
+}
+.input#Email {
+  width: 73%;
+  margin: 0 9px 0 0;
+}
+
+.h-footer {
+  background-color: cornsilk;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+      &--top {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 20px;
+        align-items: center;
+        &-box:last-child{
+          display: flex;
+          font-size: 40px;
+          i {
+            margin-right: 6px;
+          }
+          i:last-child {
+            margin-right: 0;
+          }
+        }
+        &-box {
+          
+
+          form {
+            // display: flex;
+            // flex-direction: column;
+            // margin-right: 40%;
+
+              // input:nth-child(1) {
+              //   display: inline;
+              // }
+          }
+        }
+
+      }
+
+      &--botton {
+        background-color: crimson;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+}
+
+li , div {
+  font-size: 12px;
+}
+.icone-twitter:hover {
+	color: #55acee;
+}
+
+.icone-facebook:hover {
+  color: #3b5998;
+}
+
+.icone-instagram:hover {
+	color: #e95950;
+}
+.icone-spt:hover {
+	color: #50ca87;
+}
+.icone-pint:hover {
+	color: red;
+}
