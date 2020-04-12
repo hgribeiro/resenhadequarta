@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
           <div className='h-footer--botton' >
             <div className='h-footer--botton-box' >
               <ul>
-                <li>INSTITUCIONAL</li>
+                <li><b>INSTITUCIONAL</b></li>
                 <li>Quem somos</li>
                 <li>Contato</li>
                 <li>Central de Atendimento</li>
@@ -36,7 +36,7 @@ export default class Footer extends React.Component {
             </div>
             <div className='h-footer--botton-box' >
               <ul>
-                  <li>ATENDIMENTO</li>
+                  <li><b>ATENDIMENTO</b></li>
                   <li>(10) 0005-755O</li>
                   <li>Horário de Atendimento:</li>
                   <li>De segunda à sexta das 09h ás 18h</li>
@@ -47,7 +47,7 @@ export default class Footer extends React.Component {
             </div>
             <div className='h-footer--botton-box' >
               <ul>
-                    <li>POLÍTICAS</li>
+                    <li><b>POLÍTICAS</b></li>
                     <li>Prazos e Entregas</li>
                     <li>Formas de pagamento</li>
                     <li>Promoções e Descontos</li>

@@ -31,13 +31,14 @@ body {
   justify-content: space-between;
   margin: 10px 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .h-footer--top-box:last-child {
   display: flex;
   font-size: 40px;
 }
 .h-footer--top-box:last-child i {
-  margin-right: 6px;
+  margin-right: 10px;
 }
 .h-footer--top-box:last-child i:last-child {
   margin-right: 0;
@@ -47,6 +48,19 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.h-footer--botton-box ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.h-footer--botton-box ul li:nth-child(1) {
+  margin-bottom: 20px;
+}
+.h-footer--botton-box ul li {
+  margin-bottom: 5px;
 }
 
 li, div {
@@ -73,6 +87,21 @@ li, div {
   color: red;
 }
 
+.h-card-item i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.h-card-item i:last-child {
+  margin-right: 0;
+}
+
+.h-footer--botton-box:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .h-header {
   display: flex;
   align-items: center;
@@ -92,6 +121,7 @@ li, div {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 .h-header-row-logo {
   height: 30px;
@@ -116,11 +146,13 @@ li, div {
   align-items: center;
   justify-content: space-between;
   margin-right: 40px;
+  flex-wrap: wrap;
 }
 .navbar ul {
   display: flex;
   list-style: none;
   margin-right: 60px;
+  flex-wrap: wrap;
 }
 .navbar-item {
   color: #c03b3b;
@@ -195,12 +227,11 @@ li {
 .h-catalogo {
   width: 100%;
   max-width: 1500px;
-  padding: 40px 200px 0;
+  padding: 40px 100px 0;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: linear-gradient(358deg, #4085d7, #9671a2, #bc5a6f, #d53a3d);
 }
 .h-catalogo li {
   flex: 1 1 200px;
@@ -210,6 +241,7 @@ li {
   flex-direction: column;
   margin: 20px;
   width: 30%;
+  max-width: 240px;
   padding-bottom: 50px;
 }
 .h-catalogo li figure {
@@ -224,6 +256,29 @@ li {
   height: auto;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+.h-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 15px 0;
+}
+.h-bar--title {
+  font-size: 15px;
+}
+.h-bar--link {
+  margin-left: 30px;
+  font-size: 15px;
+  color: #a7a1a1;
+}
+.h-bar--link:hover {
+  color: #807b7b;
+}
+
+.h-banner-img img {
+  width: 100%;
 }
 
 .h-erro {
