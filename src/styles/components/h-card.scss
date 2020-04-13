@@ -1,0 +1,22 @@
+
+.h-card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  &-form {
+    display: flex;
+    justify-content: space-between;
+      &-item .title {
+         display: flex;
+         align-items: baseline;
+         justify-content: start;
+         font-size: 15px;
+         font-weight: bold;
+          i {
+            margin-right: 5px;
+          } 
+      }
+  }
+}
+
+

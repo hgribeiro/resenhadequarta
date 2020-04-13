@@ -10,6 +10,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .input#Nome {
   width: 90%;
   margin: 0 10px 10px 0px;
@@ -227,35 +232,39 @@ li {
 .h-catalogo {
   width: 100%;
   max-width: 1500px;
-  padding: 40px 100px 0;
+  padding: 40px 10px 0;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.h-catalogo li {
+.h-catalogo-item {
   flex: 1 1 200px;
-  background-color: #d8c5c5;
-  border-radius: 9px;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  margin: 20px;
-  width: 30%;
-  max-width: 240px;
-  padding-bottom: 50px;
+  margin: 10px;
+  min-width: 150px;
+  max-width: 330px;
+  padding-bottom: 10px;
 }
-.h-catalogo li figure {
+.h-catalogo-item--product {
   margin: 0;
   width: 100%;
   height: auto;
   overflow: hidden;
   position: relative;
 }
-.h-catalogo li figure img {
+
+.h-product--img {
   width: 100%;
   height: auto;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 2px;
+}
+.h-product--img-sale {
+  position: absolute;
+  left: 0;
+  width: 40px;
 }
 
 .h-bar {
@@ -279,6 +288,51 @@ li {
 
 .h-banner-img img {
   width: 100%;
+}
+
+.h-catalogo-item--description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h-item-title {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.h-item-price {
+  text-align: center;
+  margin-bottom: 2px;
+  color: #9e9a9a;
+  font-size: 15px;
+}
+
+.h-item-conditions {
+  text-align: center;
+  color: #9e9a9a;
+}
+
+.h-card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.h-card-form {
+  display: flex;
+  justify-content: space-between;
+}
+.h-card-form-item .title {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+  font-size: 15px;
+  font-weight: bold;
+}
+.h-card-form-item .title i {
+  margin-right: 5px;
 }
 
 .h-erro {
