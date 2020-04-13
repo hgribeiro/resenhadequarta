@@ -11,7 +11,7 @@ export default class CadPage extends React.Component {
             <div className="h-card-form">
               <div className="h-card-form-item">
                 <div className="h-card-form-item title">
-                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <i className="fa fa-user-o" aria-hidden="true"></i>
                   <p>DADOS PESSOAIS</p>
                 </div>
                 <form>
@@ -31,7 +31,7 @@ export default class CadPage extends React.Component {
           </div>
 
           <Footer
-          newsletter = 'false'
+          newsletter = ''
           />
     </>  
     )
