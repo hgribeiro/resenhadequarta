@@ -2,12 +2,13 @@
 .h-card {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding:  30px 50px;
   &-form {
     display: flex;
     justify-content: space-between;
       &-item .title {
          display: flex;
+         flex-direction: row;
          align-items: baseline;
          justify-content: start;
          font-size: 15px;
@@ -16,7 +17,32 @@
             margin-right: 5px;
           } 
       }
-  }
+      &-item {
+        display: flex;
+        flex-direction: column;
+        // width: 25%;
+        form {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      
+  
+    }
 }
 
+.h-form-campo{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+.h-form-dois {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  input {
+    width: 100%;
+  }
+}
+      
 

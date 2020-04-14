@@ -16,6 +16,30 @@ export default class CadPage extends React.Component {
                 </div>
                 <form>
                   <p>Solicitamos apenas as informações essenciais para a realização da compra.</p>
+                  <div className="h-form-campo">
+                    <label htmlFor="email">E-MAIL</label>
+                     <input type="email" placeholder="Seu melhor e-mail"/>
+                  </div>
+                  <div className="h-form-dois">
+                    <div className="h-form-campo">
+                      <label htmlFor="nome">PRIMEIRO NOME</label>
+                      <input type="name" name="" id=""/>
+                    </div>
+                    <div className="h-form-campo">
+                      <label htmlFor="nome">ÚLTIMO NOME</label>
+                      <input type="name" name="" id=""/>
+                    </div>
+                  </div>
+                  <div className="h-form-dois">
+                    <div className="h-form-campo">
+                      <label htmlFor="nome">PRIMEIRO NOME</label>
+                      <input type="name" name="" id=""/>
+                    </div>
+                    <div className="h-form-campo">
+                      <label htmlFor="nome">ÚLTIMO NOME</label>
+                      <input type="name" name="" id=""/>
+                    </div>
+                  </div>
                 </form>
               </div>
               <div className="h-card-form-item">

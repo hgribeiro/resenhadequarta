@@ -13,7 +13,9 @@ export default class MainPage extends React.Component {
             <Header/>
             
             <Catalogo/>
-            <Footer/>
+            <Footer
+            newsletter = 'sim'
+            />
           </>
         
     )

@@ -318,7 +318,7 @@ li {
 .h-card {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 30px 50px;
 }
 .h-card-form {
   display: flex;
@@ -326,6 +326,7 @@ li {
 }
 .h-card-form-item .title {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
   justify-content: start;
   font-size: 15px;
@@ -333,6 +334,29 @@ li {
 }
 .h-card-form-item .title i {
   margin-right: 5px;
+}
+.h-card-form-item {
+  display: flex;
+  flex-direction: column;
+}
+.h-card-form-item form {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-form-campo {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.h-form-dois {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.h-form-dois input {
+  width: 100%;
 }
 
 .h-erro {

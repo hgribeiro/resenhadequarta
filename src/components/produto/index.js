@@ -22,10 +22,10 @@ export default class Produto extends React.Component {
             </figure>
             <div className="h-catalogo-item--description">
               <div className="h-item-title">
-                MOLETOM CARECA APPROVE UNISSEX RAINBOW PRETO
+                {this.props.name}
               </div>
               <div className="h-item-price">
-                R$ 279,99
+                R$ {this.props.price}
               </div>
               <div className="h-item-conditions">
                 <b>6 x</b> de <b>R$ 46,66</b> sem juros 
