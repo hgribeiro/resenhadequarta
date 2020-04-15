@@ -9542,6 +9542,11 @@ react-scripts@3.4.0:
   optionalDependencies:
     fsevents "2.1.2"
 
+react-via-cep@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/react-via-cep/-/react-via-cep-2.0.8.tgz#efd00a7fd3f4124cc66f8649d23db1c5f1d04c29"
+  integrity sha512-AsRhVI9xMball4ZO9si9Tab/X18O3Qsf4SkeTR3+mD8RmF3NavoPplb9ekRS+i7vj3MqitffC7gSTH5iEISHhg==
+
 react@^16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"

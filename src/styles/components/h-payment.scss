@@ -1,0 +1,18 @@
+.h-payment {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.h-boleto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h-cartao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

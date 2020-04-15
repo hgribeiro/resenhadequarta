@@ -2,25 +2,35 @@
 .h-card {
   display: flex;
   flex-direction: column;
-  padding:  30px 50px;
+  padding:  20px 20px;
+  
   &-form {
     display: flex;
     justify-content: space-between;
-      &-item .title {
+    flex-wrap: wrap;
+      &-title {
          display: flex;
          flex-direction: row;
          align-items: baseline;
          justify-content: start;
          font-size: 15px;
          font-weight: bold;
+        //  height: fit-content;
+        //  width: auto;
           i {
             margin-right: 5px;
           } 
       }
       &-item {
         display: flex;
+        // flex: 1 1 200px;
+        flex: 1 1 auto;
         flex-direction: column;
-        // width: 25%;
+        width: 20%;
+        // background-color: blue;
+        max-width: 400px;
+        width: 100%;
+        padding: 10px;
         form {
           display: flex;
           flex-direction: column;
@@ -31,18 +41,34 @@
     }
 }
 
-.h-form-campo{
-    display: flex;
-    flex-direction: column;
-    padding: 0 5px;
-}
+
 .h-form-dois {
   display: flex;
   width: 100%;
-  justify-content: space-around;
-  input {
-    width: 100%;
-  }
+  justify-content: space-between;
+  
 }
-      
 
+.h-form-campo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+    align-items: baseline;
+    input {
+    width: 100%;
+    margin: 5px 0px;
+    }
+    
+
+ }
+ .promo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+    input {
+      width: fit-content;
+      margin-right: 10px;
+    }
+}

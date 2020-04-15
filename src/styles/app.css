@@ -15,6 +15,20 @@ a {
   color: black;
 }
 
+button {
+  background-color: black;
+  border-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 3px;
+}
+
+input {
+  height: 30px;
+}
+
 .input#Nome {
   width: 90%;
   margin: 0 10px 10px 0px;
@@ -184,37 +198,40 @@ li, div {
   width: 100%;
   margin-bottom: 120px;
 }
-.h-header-colum-promo {
+
+.h-header-cad {
   display: flex;
-  flex-direction: column;
-  align-items: initial;
+  flex-direction: row;
+  background-color: #d6acb5;
+  padding: 1vw;
 }
-.h-header-colum-promo p {
-  font-size: 15px;
-  color: #c03b3b;
+.h-header-cad-logo {
+  height: auto;
+  width: 4vw;
+  position: absolute;
+  margin: 0 48vw;
 }
-.h-header-colum-promo p:hover {
-  color: #b45a5a;
+.h-header-cad-logo img {
+  height: auto;
+  width: 100%;
 }
-
-.redi {
-  width: fit-content;
-  padding: 5px 5px;
-  margin-top: 35%;
-  background-color: #c03b3b;
-  border-radius: 5px;
+.h-header-cad-itens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 15px 20px;
 }
-.redi p {
-  font-size: 20px;
-  margin: 0;
-  color: black;
+.h-header-cad-itens1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-.redi:hover {
-  background-color: #b45a5a;
-}
-.redi:hover p {
-  color: black;
+.h-header-cad-item {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0 5vw;
 }
 
 li {
@@ -318,13 +335,14 @@ li {
 .h-card {
   display: flex;
   flex-direction: column;
-  padding: 30px 50px;
+  padding: 20px 20px;
 }
 .h-card-form {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-.h-card-form-item .title {
+.h-card-form-title {
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -332,31 +350,67 @@ li {
   font-size: 15px;
   font-weight: bold;
 }
-.h-card-form-item .title i {
+.h-card-form-title i {
   margin-right: 5px;
 }
 .h-card-form-item {
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
+  width: 20%;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
 }
 .h-card-form-item form {
   display: flex;
   flex-direction: column;
 }
 
-.h-form-campo {
-  display: flex;
-  flex-direction: column;
-  padding: 0 5px;
-}
-
 .h-form-dois {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.h-form-dois input {
+
+.h-form-campo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  align-items: baseline;
+}
+.h-form-campo input {
   width: 100%;
+  margin: 5px 0px;
+}
+
+.promo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.promo input {
+  width: fit-content;
+  margin-right: 10px;
+}
+
+.h-payment {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-boleto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h-cartao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .h-erro {

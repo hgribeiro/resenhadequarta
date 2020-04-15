@@ -10,7 +10,9 @@ export default class MainPage extends React.Component {
     return (
         
           <>
-            <Header/>
+            <Header
+            header = "main"
+            />
             
             <Catalogo/>
             <Footer
