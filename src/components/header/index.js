@@ -3,7 +3,7 @@ import React from 'react';
 
 import logo from '../../assets/Logomark - Black.png';
 import logo2 from '../../assets/Logo - Alternate Layout - Flush Mahogany.png'
-import MainPage from '../main-page';
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
   render(){
@@ -19,12 +19,12 @@ export default class Header extends React.Component {
             <div className="h-header-row- menu">
               <nav className="navbar">
                 <ul>
-                  <li className="navbar-item">Sobre</li>
+                  <Link to="/"><li className="navbar-item">Sobre</li></Link>
                   <li className="navbar-item">Produtos</li>
                   <li className="navbar-item">Contato</li>
                 </ul>
                 <div className="card">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <Link to="/cad"><i class="fa fa-shopping-cart" aria-hidden="true"></i></Link>
                 </div>
               </nav>
             </div>
@@ -49,23 +49,26 @@ export default class Header extends React.Component {
               <div className="h-header-cad-itens">
                 <div className="h-header-cad-itens1">
                       <div className="h-header-cad-item">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
+                        <i className="fa fa-truck" aria-hidden="true"></i>
                         <p> FRETE GRÁTIS </p>  
                       </div>
                       <div className="h-header-cad-item">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                        <p> FRETE GRÁTIS </p>  
+                      <i className="fa fa-calendar-check-o" aria-hidden="true"></i>
+                      
+                        <p> ENTREGA  AGENDADA </p>  
+                         
+                      
                       </div>
                 </div>
                     
                 <div className="h-header-cad-itens1">
-                      <div className="h-header-cad-item">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                        <p> FRETE GRÁTIS </p>  
+                      <div className="h-header-cad-item end">
+                        <i className="fa fa-shield" aria-hidden="true"></i>
+                        <p> COMPRA <i>SEGURA</i> </p>  
                       </div>
-                      <div className="h-header-cad-item">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                        <p> FRETE GRÁTIS </p>  
+                      <div className="h-header-cad-item end">
+                         <i className="fa fa-exchange" aria-hidden="true"></i>
+                        <p> TROCA <i>GRÁTIS </i></p>  
                       </div>
                 </div>
               </div>

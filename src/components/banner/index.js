@@ -1,6 +1,6 @@
 import React from 'react';
 
-import banner40 from '../../assets/bannter40.png';
+
 
 export default class Banner extends React.Component {
   render(){
@@ -10,7 +10,7 @@ export default class Banner extends React.Component {
       <>
         <div className="h-banner">
           <div className="h-banner-img">
-            <img src={banner40} alt=""/>
+            <img src={this.props.picture} alt=""/>
           </div>
         </div>
       </>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CadPage from '../cad-page';
+import ObrigadoPage from '../obg-page';
 import MainPage from '../main-page';
 import ServerErrorPage from '../404-page';
 import '../../styles/app.css';
@@ -20,14 +21,17 @@ class App extends React.Component {
       <BrowserRouter>
         
         <Switch>
-          <Route path='/CADS' exact>
+          <Route path='/' exact>
             <MainPage/>
           </Route>
           
           {/* MUDANÇA TEMPORARIA NO CAMINHO DA MAIN E CAD PAGES. */}
 
-          <Route path='/' exact>
+          <Route path='/cad' exact>
             <CadPage/>
+          </Route>
+          <Route path='/obrigado' exact>
+            <ObrigadoPage/>
           </Route>
 
           <Route exact path='/500'>

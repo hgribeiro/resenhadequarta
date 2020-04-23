@@ -23,10 +23,20 @@ button {
   text-transform: uppercase;
   font-size: 20px;
   padding: 3px;
+  cursor: pointer;
 }
 
 input {
   height: 30px;
+  padding: 6px;
+  border-radius: 2px;
+  border: none;
+  background: #f1eeee;
+}
+
+.h-column-general {
+  display: flex;
+  flex-direction: column;
 }
 
 .input#Nome {
@@ -131,7 +141,7 @@ li, div {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 110vh;
+  height: 80vh;
   position: relative;
   width: 100%;
 }
@@ -202,7 +212,7 @@ li, div {
 .h-header-cad {
   display: flex;
   flex-direction: row;
-  background-color: #d6acb5;
+  background-color: crimson;
   padding: 1vw;
 }
 .h-header-cad-logo {
@@ -226,12 +236,27 @@ li, div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+}
+.h-header-cad-itens1:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
 }
 .h-header-cad-item {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  margin: 0 5vw;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+}
+.h-header-cad-item p {
+  margin: 0;
+}
+
+.end {
+  justify-content: flex-end;
 }
 
 li {
@@ -249,7 +274,7 @@ li {
 .h-catalogo {
   width: 100%;
   max-width: 1500px;
-  padding: 40px 10px 0;
+  padding: 0px 10px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -263,7 +288,12 @@ li {
   margin: 10px;
   min-width: 150px;
   max-width: 330px;
-  padding-bottom: 10px;
+}
+.h-catalogo-item:hover {
+  margin: 11px;
+}
+.h-catalogo-item:hover .h-holder {
+  visibility: visible;
 }
 .h-catalogo-item--product {
   margin: 0;
@@ -399,6 +429,7 @@ li {
 .h-payment {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .h-boleto {
@@ -411,6 +442,86 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.h-metodos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.h-escolha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.h-numero {
+  text-align: center;
+}
+
+.h-payment-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.h-holder {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  position: relative;
+  /* top: 11px; */
+  bottom: 135px;
+  height: 75px;
+  font-size: 10px;
+  background-color: rgba(223, 217, 217, 0.459);
+}
+
+#PaymentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h-form input {
+  width: 90%;
+  margin: 10px;
+}
+.h-form-dois-pay {
+  display: flex;
+  justify-content: space-around;
+}
+.h-form-dois-pay input {
+  width: 40%;
+}
+
+#modal {
+  background: #ff5E84;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.h-ty {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #ad9b9b;
+  display: flex;
+}
+.h-ty p {
+  flex-grow: 1;
+  height: 100%;
 }
 
 .h-erro {

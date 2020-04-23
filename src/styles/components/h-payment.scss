@@ -1,7 +1,7 @@
 .h-payment {
   display: flex;
   flex-direction: column;
-
+  height: 100%;
 }
 
 .h-boleto {
@@ -16,3 +16,27 @@
   align-items: center;
 }
 
+.h-metodos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.h-escolha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+} 
+
+.h-numero { 
+  text-align: center;
+ 
+}
+
+.h-payment-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
